@@ -1,0 +1,50 @@
+
+Topics:
+
+  local BE to local DB
+  
+  1. Cloud Atlas:
+
+      Signing Up & Creating Cloud DB
+
+      Connecting with Cloud Atlas DB
+    
+    DB Create: 
+      1. Sign up on https://cloud.mongodb.com/
+      2. Project Creation
+      3. Database Creation ( Select M0 Free Version & Create )
+      4. Username with Password, Note those details somewhere safe
+      5. Copy the Connect URL and replace with the local url
+      6. Add 0.0.0.0/0 in the network - this open up the db for anybody with username/password to connect to it
+    
+    local BE to Cloud DB - Done
+      Hit Get Call it fetches data from the Cloud DB
+  2. dotenv:
+      storing sensitive information as a .env file
+
+      Cloud BE to Cloud DB - Done
+
+  3. gitignore:
+      files to be ignored by the source codes
+  
+  4. Connecting a simple FrontEnd with Backend Server:
+
+      local FE to local BE to Cloud DB = Done
+
+        cors error -> Cross origin resource Sharing
+          Occurs when different origins try to connect/communicate
+
+          localhost:5173 FE conneting to localhost:8000 BE
+
+          So, we need to make the BE server CORS compatible
+
+  5. Dployment ( Both FrontEnd & BackEnd )
+      local FE to Cloud BE - Done
+
+      .env --> local FE
+      env variables --> netlify variables
+
+      Cloud FE to Cloud BE to Coud DB - Done
+
+      FE URL -> https://gorgeous-bavarois-4d296a.netlify.app/
+      BE URL -> https://b49weeng-node-service.onrender.com/
