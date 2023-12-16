@@ -22,6 +22,8 @@ Topics:
   2. dotenv:
       storing sensitive information as a .env file
 
+.env should be ignored in GIT
+
       Cloud BE to Cloud DB - Done
 
   3. gitignore:
